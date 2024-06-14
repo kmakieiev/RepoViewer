@@ -18,21 +18,16 @@ A simple macOS application built with Swift and SwiftUI that allows users to fet
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/GitHubRepoViewer.git
-    cd GitHubRepoViewer
+    git clone https://github.com/kmakieiev/RepoViewer.git
+    cd RepoViewer
     ```
 
 2. Open the project in Xcode:
     ```bash
-    open GitHubRepoViewer.xcodeproj
+    open RepoViewer.xcodeproj
     ```
 
-3. Add your GitHub personal access token in `GitHubService.swift`:
-    ```swift
-    let personalAccessToken = "your_personal_access_token_here"
-    ```
-
-4. Build and run the project.
+3. Build and run the project.
 
 ## Usage
 
