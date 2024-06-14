@@ -209,7 +209,7 @@ struct Commit: Identifiable, Codable {
 }
 ```
 
-### `Models.swift`
+### `GiHubService.swift`
 
 Contains functions to fetch repositories, commits, and languages from the GitHub API.
 
