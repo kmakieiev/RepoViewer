@@ -14,6 +14,8 @@
 		317A16C92C1C464400CAA4B5 /* RepoViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317A16C82C1C464400CAA4B5 /* RepoViewerTests.swift */; };
 		317A16D32C1C464400CAA4B5 /* RepoViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317A16D22C1C464400CAA4B5 /* RepoViewerUITests.swift */; };
 		317A16D52C1C464400CAA4B5 /* RepoViewerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317A16D42C1C464400CAA4B5 /* RepoViewerUITestsLaunchTests.swift */; };
+		317A16E22C1C465600CAA4B5 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317A16E12C1C465600CAA4B5 /* Models.swift */; };
+		317A16E42C1C467400CAA4B5 /* GitHubService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317A16E32C1C467400CAA4B5 /* GitHubService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		317A16CE2C1C464400CAA4B5 /* RepoViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepoViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		317A16D22C1C464400CAA4B5 /* RepoViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoViewerUITests.swift; sourceTree = "<group>"; };
 		317A16D42C1C464400CAA4B5 /* RepoViewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoViewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		317A16E12C1C465600CAA4B5 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		317A16E32C1C467400CAA4B5 /* GitHubService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				317A16BA2C1C464400CAA4B5 /* Assets.xcassets */,
 				317A16BF2C1C464400CAA4B5 /* RepoViewer.entitlements */,
 				317A16BC2C1C464400CAA4B5 /* Preview Content */,
+				317A16E12C1C465600CAA4B5 /* Models.swift */,
+				317A16E32C1C467400CAA4B5 /* GitHubService.swift */,
 			);
 			path = RepoViewer;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				317A16E22C1C465600CAA4B5 /* Models.swift in Sources */,
 				317A16B92C1C464300CAA4B5 /* ContentView.swift in Sources */,
+				317A16E42C1C467400CAA4B5 /* GitHubService.swift in Sources */,
 				317A16B72C1C464300CAA4B5 /* RepoViewerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +437,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RepoViewer;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,6 +466,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RepoViewer;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
