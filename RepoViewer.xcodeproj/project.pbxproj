@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		317A16B72C1C464300CAA4B5 /* RepoViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317A16B62C1C464300CAA4B5 /* RepoViewerApp.swift */; };
+		317A16B92C1C464300CAA4B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317A16B82C1C464300CAA4B5 /* ContentView.swift */; };
+		317A16BB2C1C464400CAA4B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 317A16BA2C1C464400CAA4B5 /* Assets.xcassets */; };
+		317A16BE2C1C464400CAA4B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 317A16BD2C1C464400CAA4B5 /* Preview Assets.xcassets */; };
+		317A16C92C1C464400CAA4B5 /* RepoViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317A16C82C1C464400CAA4B5 /* RepoViewerTests.swift */; };
+		317A16D32C1C464400CAA4B5 /* RepoViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317A16D22C1C464400CAA4B5 /* RepoViewerUITests.swift */; };
+		317A16D52C1C464400CAA4B5 /* RepoViewerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317A16D42C1C464400CAA4B5 /* RepoViewerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		317A16C52C1C464400CAA4B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 317A16AB2C1C464300CAA4B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 317A16B22C1C464300CAA4B5;
+			remoteInfo = RepoViewer;
+		};
+		317A16CF2C1C464400CAA4B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 317A16AB2C1C464300CAA4B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 317A16B22C1C464300CAA4B5;
+			remoteInfo = RepoViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		317A16B32C1C464300CAA4B5 /* RepoViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepoViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		317A16B62C1C464300CAA4B5 /* RepoViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoViewerApp.swift; sourceTree = "<group>"; };
+		317A16B82C1C464300CAA4B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		317A16BA2C1C464400CAA4B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		317A16BD2C1C464400CAA4B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		317A16BF2C1C464400CAA4B5 /* RepoViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RepoViewer.entitlements; sourceTree = "<group>"; };
+		317A16C42C1C464400CAA4B5 /* RepoViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepoViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		317A16C82C1C464400CAA4B5 /* RepoViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoViewerTests.swift; sourceTree = "<group>"; };
+		317A16CE2C1C464400CAA4B5 /* RepoViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepoViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		317A16D22C1C464400CAA4B5 /* RepoViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoViewerUITests.swift; sourceTree = "<group>"; };
+		317A16D42C1C464400CAA4B5 /* RepoViewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoViewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		317A16B02C1C464300CAA4B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		317A16C12C1C464400CAA4B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		317A16CB2C1C464400CAA4B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		317A16AA2C1C464300CAA4B5 = {
+			isa = PBXGroup;
+			children = (
+				317A16B52C1C464300CAA4B5 /* RepoViewer */,
+				317A16C72C1C464400CAA4B5 /* RepoViewerTests */,
+				317A16D12C1C464400CAA4B5 /* RepoViewerUITests */,
+				317A16B42C1C464300CAA4B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		317A16B42C1C464300CAA4B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				317A16B32C1C464300CAA4B5 /* RepoViewer.app */,
+				317A16C42C1C464400CAA4B5 /* RepoViewerTests.xctest */,
+				317A16CE2C1C464400CAA4B5 /* RepoViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		317A16B52C1C464300CAA4B5 /* RepoViewer */ = {
+			isa = PBXGroup;
+			children = (
+				317A16B62C1C464300CAA4B5 /* RepoViewerApp.swift */,
+				317A16B82C1C464300CAA4B5 /* ContentView.swift */,
+				317A16BA2C1C464400CAA4B5 /* Assets.xcassets */,
+				317A16BF2C1C464400CAA4B5 /* RepoViewer.entitlements */,
+				317A16BC2C1C464400CAA4B5 /* Preview Content */,
+			);
+			path = RepoViewer;
+			sourceTree = "<group>";
+		};
+		317A16BC2C1C464400CAA4B5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				317A16BD2C1C464400CAA4B5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		317A16C72C1C464400CAA4B5 /* RepoViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				317A16C82C1C464400CAA4B5 /* RepoViewerTests.swift */,
+			);
+			path = RepoViewerTests;
+			sourceTree = "<group>";
+		};
+		317A16D12C1C464400CAA4B5 /* RepoViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				317A16D22C1C464400CAA4B5 /* RepoViewerUITests.swift */,
+				317A16D42C1C464400CAA4B5 /* RepoViewerUITestsLaunchTests.swift */,
+			);
+			path = RepoViewerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		317A16B22C1C464300CAA4B5 /* RepoViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 317A16D82C1C464400CAA4B5 /* Build configuration list for PBXNativeTarget "RepoViewer" */;
+			buildPhases = (
+				317A16AF2C1C464300CAA4B5 /* Sources */,
+				317A16B02C1C464300CAA4B5 /* Frameworks */,
+				317A16B12C1C464300CAA4B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RepoViewer;
+			productName = RepoViewer;
+			productReference = 317A16B32C1C464300CAA4B5 /* RepoViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		317A16C32C1C464400CAA4B5 /* RepoViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 317A16DB2C1C464400CAA4B5 /* Build configuration list for PBXNativeTarget "RepoViewerTests" */;
+			buildPhases = (
+				317A16C02C1C464400CAA4B5 /* Sources */,
+				317A16C12C1C464400CAA4B5 /* Frameworks */,
+				317A16C22C1C464400CAA4B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				317A16C62C1C464400CAA4B5 /* PBXTargetDependency */,
+			);
+			name = RepoViewerTests;
+			productName = RepoViewerTests;
+			productReference = 317A16C42C1C464400CAA4B5 /* RepoViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		317A16CD2C1C464400CAA4B5 /* RepoViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 317A16DE2C1C464400CAA4B5 /* Build configuration list for PBXNativeTarget "RepoViewerUITests" */;
+			buildPhases = (
+				317A16CA2C1C464400CAA4B5 /* Sources */,
+				317A16CB2C1C464400CAA4B5 /* Frameworks */,
+				317A16CC2C1C464400CAA4B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				317A16D02C1C464400CAA4B5 /* PBXTargetDependency */,
+			);
+			name = RepoViewerUITests;
+			productName = RepoViewerUITests;
+			productReference = 317A16CE2C1C464400CAA4B5 /* RepoViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		317A16AB2C1C464300CAA4B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					317A16B22C1C464300CAA4B5 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					317A16C32C1C464400CAA4B5 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 317A16B22C1C464300CAA4B5;
+					};
+					317A16CD2C1C464400CAA4B5 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 317A16B22C1C464300CAA4B5;
+					};
+				};
+			};
+			buildConfigurationList = 317A16AE2C1C464300CAA4B5 /* Build configuration list for PBXProject "RepoViewer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 317A16AA2C1C464300CAA4B5;
+			productRefGroup = 317A16B42C1C464300CAA4B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				317A16B22C1C464300CAA4B5 /* RepoViewer */,
+				317A16C32C1C464400CAA4B5 /* RepoViewerTests */,
+				317A16CD2C1C464400CAA4B5 /* RepoViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		317A16B12C1C464300CAA4B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				317A16BE2C1C464400CAA4B5 /* Preview Assets.xcassets in Resources */,
+				317A16BB2C1C464400CAA4B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		317A16C22C1C464400CAA4B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		317A16CC2C1C464400CAA4B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		317A16AF2C1C464300CAA4B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				317A16B92C1C464300CAA4B5 /* ContentView.swift in Sources */,
+				317A16B72C1C464300CAA4B5 /* RepoViewerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		317A16C02C1C464400CAA4B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				317A16C92C1C464400CAA4B5 /* RepoViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		317A16CA2C1C464400CAA4B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				317A16D52C1C464400CAA4B5 /* RepoViewerUITestsLaunchTests.swift in Sources */,
+				317A16D32C1C464400CAA4B5 /* RepoViewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		317A16C62C1C464400CAA4B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 317A16B22C1C464300CAA4B5 /* RepoViewer */;
+			targetProxy = 317A16C52C1C464400CAA4B5 /* PBXContainerItemProxy */;
+		};
+		317A16D02C1C464400CAA4B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 317A16B22C1C464300CAA4B5 /* RepoViewer */;
+			targetProxy = 317A16CF2C1C464400CAA4B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		317A16D62C1C464400CAA4B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		317A16D72C1C464400CAA4B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		317A16D92C1C464400CAA4B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RepoViewer/RepoViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RepoViewer/Preview Content\"";
+				DEVELOPMENT_TEAM = TVLRWAB39R;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kmakieiev.RepoViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		317A16DA2C1C464400CAA4B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RepoViewer/RepoViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RepoViewer/Preview Content\"";
+				DEVELOPMENT_TEAM = TVLRWAB39R;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kmakieiev.RepoViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		317A16DC2C1C464400CAA4B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TVLRWAB39R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kmakieiev.RepoViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RepoViewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RepoViewer";
+			};
+			name = Debug;
+		};
+		317A16DD2C1C464400CAA4B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TVLRWAB39R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kmakieiev.RepoViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RepoViewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RepoViewer";
+			};
+			name = Release;
+		};
+		317A16DF2C1C464400CAA4B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TVLRWAB39R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kmakieiev.RepoViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = RepoViewer;
+			};
+			name = Debug;
+		};
+		317A16E02C1C464400CAA4B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TVLRWAB39R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kmakieiev.RepoViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = RepoViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		317A16AE2C1C464300CAA4B5 /* Build configuration list for PBXProject "RepoViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				317A16D62C1C464400CAA4B5 /* Debug */,
+				317A16D72C1C464400CAA4B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		317A16D82C1C464400CAA4B5 /* Build configuration list for PBXNativeTarget "RepoViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				317A16D92C1C464400CAA4B5 /* Debug */,
+				317A16DA2C1C464400CAA4B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		317A16DB2C1C464400CAA4B5 /* Build configuration list for PBXNativeTarget "RepoViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				317A16DC2C1C464400CAA4B5 /* Debug */,
+				317A16DD2C1C464400CAA4B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		317A16DE2C1C464400CAA4B5 /* Build configuration list for PBXNativeTarget "RepoViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				317A16DF2C1C464400CAA4B5 /* Debug */,
+				317A16E02C1C464400CAA4B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 317A16AB2C1C464300CAA4B5 /* Project object */;
+}
